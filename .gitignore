@@ -1,0 +1,38 @@
+# Environment and secrets
+.env
+.env.*
+!.env.example
+
+# Dependencies
+node_modules/
+vendor/
+
+# Build and coverage output
+dist/
+build/
+out/
+coverage/
+.next/
+.nuxt/
+
+# Logs and runtime files
+*.log
+logs/
+*.pid
+
+# Python cache (if applicable)
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+venv/
+
+# IDE and OS files
+.vscode/
+.idea/
+*.swp
+.DS_Store
+Thumbs.db
+
+# Local-only configuration
+*.local
